@@ -1,0 +1,8 @@
+spring:
+  elasticsearch:
+    uris: centos.orb.local:9200,centos02.orb.local:9200,centos03.orb.local:9200
+
+
+logging:
+  pattern:
+    console: '%d{HH:mm:ss.SSS} %clr(%-5level) ---  [%-15thread] %cyan(%-50logger{50}):%msg%n'
